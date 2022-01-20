@@ -6,11 +6,12 @@ app = Flask(__name__)
 api = Api(app)
 
 # connect to database
+# x's not in real app, just place holders here.
 database = mysql.connector.connect(
-    host="194.195.124.16",
-    user="Access_All", 
-    passwd="F1F@2OlS%",
-    database="MediaContent")
+    host="xxxx (host address)",
+    user="xxxx (Username)", 
+    passwd="xxxx (password)",
+    database="xxxx (database name)")
 
 # Add dictionary true to get the table headers.
 # Else it just prints out each row as a list without the mapped (header -> body).
